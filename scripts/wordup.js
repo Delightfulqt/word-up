@@ -224,7 +224,7 @@ function wordSubmissionChip(wordSubmission) {
           scoreChip.text(wordScore(wordSubmission.word));
         }
         else {
-          scorechip.addClass("tag-danger");
+          scoreChip.addClass("tag-danger");
           scoreChip.text("X");
         }
 
